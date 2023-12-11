@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    max-width: 1440px;
+}
+
+body {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 5rem 8rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    color: hsl(236, 13%, 42%);
+}
+
+ul li:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    gap: 37px;
+    margin-top: 40px;
+}
+
+.main {
+    height: 100%;
+}
+
+.image{ 
+    width: 700px;
+}
+
+#img-lego {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    margin-top: 25px;
+}
+
+.info .question h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.question , .explication{
+    width: 100%;
+}
+
+.explication {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.explication p {
+    line-height: 20px;
+}
+
+.new {
+    background-color: hsl(240, 100%, 5%);
+    padding: 25px;
+    width: 100%;
+}
+
+.new :first-child {
+    color: hsl(35, 77%, 62%);
+}
+
+.new h3 {
+    color: white;
+    margin-top: 30px;
+}
+.new p{
+    color: hsl(236, 19%, 86%);
+    margin: 20px 0px;
+}
+
+button {
+    width: 200px;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: white;
+    height: 50px;
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    transition: 0.5s;
+}
+
+footer {
+    display: flex;
+    gap: 10px;
+    margin-top: 55px;
+}
+
+.reviving-retro , .top-laptops , .controll {
+    display: flex;
+    gap: 25px;
+}
+
+.images-footer  {
+    width: 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer h3 {
+    color: rgb(192, 192, 192);
+    font-size: 30px;
+}
